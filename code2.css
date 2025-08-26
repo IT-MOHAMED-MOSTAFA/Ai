@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    background: url(images&videos/0225.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  place-items:  center;
+  align-items: center;
+  justify-content: center;
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100% !important;
+    height: 100% !important;
+    display: grid;
+    place-items:  center;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 100px;
+  }
+
+
+
+  .card {
+    background-color: #fdfcff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 930px;
+    height: 600px;
+    margin-top: 10px;
+    /* margin: 50px auto; */
+  }
+  
+  @media (max-width: 992px) {
+    .card {
+      width: 90%;
+      height: fit-content;
+    }
+  }
+  
+  .card .top-content {
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+  }
+
+  .p-edit{
+    font-weight: 400;
+  }
+  
+  @media (max-width: 992px) {
+    .card .top-content {
+      flex-direction: column-reverse;
+    }
+  }
+  
+  .card .top-content .img-holder {
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 992px) {
+    .card .top-content .img-holder {
+      width: 100%;
+      height: 300px;
+      margin: 0 auto 20px;
+    }
+  }
+  
+  .card .top-content p {
+    width: 520px;
+    margin-left: 40px;
+  }
+  
+  @media (max-width: 992px) {
+    .card .top-content p {
+      width: 100%;
+    }
+  }
+
+
+  .h2 {
+    font-size: 24px;
+    line-height: normal;
+    margin-left: 70%;
+    display: inline-block;
+    color: #5c90e7;
+  }
+
+  .h2:hover{
+    color: #ef4b4c;
+  }
+
+  #imgone{
+    height: 250%;
+    width: 105%;
+    border-radius: 12px;
+    box-shadow: 10px 4px 30px ;
+  }
+
+
+  #card-2{
+    height:  75%;
+      padding-top: 1px;
+      margin-top:   -8px;
+}
+
+  .img-holder{
+    margin-bottom: 360px;
+    padding-bottom: 30px;
+  }
+
+  #google_translate_element{
+    background-color: #fdfcff;
+    margin-left: 40px;
+  }
+
+  #google{
+    display: grid;
+    place-items:  center;
+    align-items: center;
+    width: 300px;
+    height: 170px;
+    overflow: hidden;
+  }
+
+
+  /* Your existing CSS styles go here */
+
+/* Dark mode styles */
+.dark-mode {
+  /* background-color: #222; */
+  color: #fff;
+}
+
+.dark-mode .card {
+  background-color: #333;
+}
+
+.dark-mode .card p {
+  color: #fff;
+}
+
+/* Button styles */
+#toggle-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#toggle-mode {
+  background: #136a8a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #e9e9eb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-mode:hover {
+  background-color: #5c90e7;
+}
+
+/* End of your existing CSS */
+
+
+@media (min-width: 1098px){
+  nav ul li{
+    padding: 10px;
+    margin-left: 50px;
+  }
+}
